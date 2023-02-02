@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment2"
+    android:background="@color/black">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Estamos"
+        android:textSize="150px"
+        android:layout_marginTop="450px"
+        android:layout_marginLeft="100px"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"/>
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="encantados"
+        android:textSize="150px"
+        android:layout_marginTop="560px"
+        android:layout_marginLeft="120px"
+        android:textColor="@color/teal_700"
+        android:fontFamily="@font/montserrat_medium"/>
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="de"
+        android:textSize="150px"
+        android:layout_marginTop="695px"
+        android:layout_marginLeft="100px"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"/>
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="tenerte"
+        android:textSize="150px"
+        android:layout_marginTop="690px"
+        android:layout_marginLeft="350px"
+        android:textColor="@color/teal_700"
+        android:fontFamily="@font/montserrat_medium"/>
+
+
+
+</FrameLayout>

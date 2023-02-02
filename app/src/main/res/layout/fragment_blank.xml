@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Ya eres"
+        android:textSize="150px"
+        android:layout_marginTop="650px"
+        android:layout_marginLeft="180px"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat_medium"/>
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="uno más!"
+        android:textSize="150px"
+        android:layout_marginTop="750px"
+        android:layout_marginLeft="220px"
+        android:textColor="@color/teal_700" />
+
+</FrameLayout>
